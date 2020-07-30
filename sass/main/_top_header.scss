@@ -1,0 +1,35 @@
+.top_header {
+    background: #343434;
+    padding: 10px 0;
+    .top_contac{ 
+        display: inline-block;
+        color: #000;
+        .ft_itme{
+            display: flex;
+            .icon_t {
+                color: #5c5c5c;
+            }
+            .p_contac {
+                margin: auto 7px;
+                color: #5c5c5c;
+            }
+        }
+        
+    }
+}
+.top_icon {
+    .t_manu {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        .t_list {
+            margin-right: 15px;
+            .tp_link{
+                color: #7d7d7d;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.do_contac_worp {
+    margin: 75px 0;
+    .do_abut_banner{
+        .abut_pra{
+            font-size: 12px;
+            color: #808080;
+            text-transform: uppercase;
+        }
+        .do_abut_Tex{
+            font-size: 36px;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            color: #444444;
+            .do_abut_spn{
+                color: #8bc34a;
+            }
+        }
+        .do_abut_pra{
+            margin-bottom: 30px;
+            color: #8c8c8c;
+        }
+    }
+    .docon_main {
+        .icon {
+            margin-bottom: 25px;
+        }
+        .hedr_do {
+            font-size: 18px;
+            color: #444444;
+            font-weight: 600;
+        }
+        .do_border {
+            border-bottom: 2px solid #999999;
+            width: 40px;
+            margin: 20px 0;
+        }
+        .do_pra {
+            color: #888888;
+        }
+    }
+
+    .do_img_back {
+        .do_back_ground {
+            position: relative;
+            .do_img_clorbg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                .dohid { 
+                    height: 570px;
+                }
+            }
+            .do_img_clorbg2 {
+                position: absolute;
+                top: 163px;
+                left: 208px;
+                margin: 0 -193px 0 0;
+                .dohid {
+                    height: 570px;
+                }
+            }
+        }
+    }
+}

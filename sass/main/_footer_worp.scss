@@ -1,0 +1,27 @@
+.footer {
+    background-color: #1c1c1c;
+    .footer_coprit {
+        position: relative;
+        .copyrit {
+            padding: 20px 0;
+            color: #6d6d6d;
+            font-size: 13px;
+            margin: 0;
+            .c_txt {
+                color: #87bd4a;
+            }
+        }
+        .up_icon {
+            position: absolute;
+            top: -18px;
+            right: 0;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #000;
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}

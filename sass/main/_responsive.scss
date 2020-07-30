@@ -1,0 +1,40 @@
+
+@media (min-width: 767px) and (max-width: 1200px) { }
+
+@media(max-width: 1024px) {}
+
+// media for ipad pro 
+@media (max-width: 991px) {}
+
+//  media for ipad
+@media (max-width: 768px) {
+    .banner_wporp {
+        min-height: 700px;
+    }
+    .banner_wporp .main_slider_baner .hd_banner .hedrtTex {
+        font-size: 52px;
+    }
+    .banner_wporp .main_slider_baner .hd_banner .ban_pra {
+        font-size: 20px;
+    }
+    .banner_wporp .main_slider_baner .hd_banner .praTex {
+        font-size: 16px;
+    }
+    .about_worp .img_back .back_ground .img_clorbg2 .hid {
+        height: 435px;
+    }
+    .about_worp .img_back .back_ground .img_clorbg .hid {
+        height: 435px;
+    }
+    .discover_worp .disover .dis_hed {
+        font-size: 28px;
+    }
+}
+
+// media for mobile large
+@media (max-width: 420px) {}
+
+// media for mobile small
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}
