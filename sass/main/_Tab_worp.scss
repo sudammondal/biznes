@@ -1,0 +1,70 @@
+.tab_worp {
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    .main_tab {
+        .tab_manu {
+            .main{
+                border-bottom: 0;
+                .tab_list {
+                    padding: 20px 123px;
+                    border-left: 1px solid transparent;
+                    border-right: 1px solid transparent;
+                    border-bottom: 4px solid transparent;
+                    text-decoration: none;
+                    color: #444444;
+                    &:hover,
+                    &.active {
+                        background-color: #f7f7f7;
+                        border-left: 1px solid #ededed;
+                        border-right: 1px solid #ededed;
+                        border-bottom: 4px solid #8bc34a;
+                    }
+                    .fa_tb {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+.tab_worp2 {
+    background-color: #f7f7f7;
+    .main_tab2 {
+        .tab_item {
+            
+            .tab-pane {
+                .business {
+                    padding: 80px 0;
+                    .business_item {
+                        .busness_h {
+                            font-size: 30px;
+                            font-weight: 500;
+                            color: #000;
+                            margin: 0 0 20px 0;
+                        }
+                        .bus_p,
+                        .bus_pea2 {
+                            font-size: 14px;
+                            color: #444444;
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+.Tab_worp {
+    .costom_tb {
+        border-bottom: 5px solid #8bc34a;
+        .tab_manu {
+            .tm_pra { 
+                margin: 0;
+                .fa_tb {
+
+                }
+            }
+        }
+    }
+}

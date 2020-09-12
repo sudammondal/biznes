@@ -1,0 +1,11 @@
+.imagelightbox-arrow-right:before {
+
+    content: "\f105" !important;
+    font-family: "fontawesome";
+    box-shadow: none;
+    outline: none;
+}
+.imagelightbox-arrow-left:before {
+    content: "\f104" !important;
+    font-family: "fontawesome";
+}

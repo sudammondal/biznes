@@ -1,0 +1,32 @@
+.slider_worp {
+    border-top: 1px solid #ededed;
+    margin-top: 50px;
+    padding: 100px 0;
+    background-color: #f9f0f0c2;;
+    .sssyour-class {
+        .imGSL {
+            padding-left: 0;
+            margin: 0 auto;
+        }
+    }
+}
+.slick-dots {
+    bottom: -260px;
+    margin: auto 0;
+    li {
+        width        : 10px;
+        height       : 10px;
+        background   : #fff;
+        border-radius: 50%;
+        transition: all 0.5s;
+        &.slick-active {
+            background: #8bc34a;
+            border-radius: 50%;
+            width        : 13px;
+            height       : 13px;
+        }
+        button {
+            display: none;
+        }
+    }
+}
