@@ -6,11 +6,9 @@
             position: relative;
             margin-top: -100px;
             .img_clorbg {
-                position: absolute;
-                top: 0;
-                left: 0;
                 .hid {
-                    height: 536px;
+                    max-width: 536px;
+                    height: auto;
                 }
             }
             .img_clorbg2 {
@@ -18,12 +16,13 @@
                 top: 30px;
                 left: 30px;
                 .hid {
-                    height: 536px;
+                    max-width: 536px;
+                    height: auto;
                 }
             }
         }
     }
-    .abut_banner{
+    .abut_banner {
         .abut_pra_top {
             font-size: 12px;
             margin-top: 90px;

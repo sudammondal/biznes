@@ -44,20 +44,19 @@
         .do_back_ground {
             position: relative;
             .do_img_clorbg {
-                position: absolute;
-                top: 0;
-                left: 0;
                 .dohid { 
-                    height: 570px;
+                    max-width: 343px;
+                    height: auto;
                 }
             }
             .do_img_clorbg2 {
                 position: absolute;
-                top: 163px;
-                left: 208px;
-                margin: 0 -193px 0 0;
+                top: 99px;
+                left: 90px;
+                margin: 0 0px 0 0;
                 .dohid {
-                    height: 570px;
+                    max-width: 343px;
+                    height: auto;
                 }
             }
         }

@@ -18,7 +18,7 @@
             }
             .ban_pra {
                 font-size  : 22px; 
-                margin-top: 160px;
+                margin-top: 250px;
                 font-family: 'Poppins', sans-serif;
                 color      : #fff;
             }
@@ -68,10 +68,11 @@
                     background: #8bc34a;
                 }
             }
-
         }
     }
-    
-    
+    .slick-dots {
+        bottom: -180px;
+        margin: auto 0;
+    }
 }
 

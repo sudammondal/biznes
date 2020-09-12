@@ -12,16 +12,25 @@
             }
         }
         .up_icon {
-            position: absolute;
-            top: -18px;
-            right: 0;
-            padding: 10px 20px;
-            color: #fff;
-            background-color: #000;
+            transition: all 0.5s;
             a {
                 text-decoration: none;
                 color: #fff;
             }
+        }
+    }
+}
+.footer {
+    .footer_coprit {
+        .up_iconFixd {
+            transition: all 0.5s;
+            position: fixed;
+            bottom: 30px;
+            right: 10px;
+            padding: 10px 15px;
+            color: #fff;
+            background-color: #87c34a;
+            border-radius: 50%;
         }
     }
 }
