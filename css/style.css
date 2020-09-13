@@ -410,7 +410,7 @@ body {
     opacity: 0.7; }
   .member_worps .members .member_col:hover .member_con {
     opacity: 1;
-    top: 0;
+    top: 7px;
     visibility: visible; }
 
 .recent_worp {
