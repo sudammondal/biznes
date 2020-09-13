@@ -497,12 +497,14 @@ body {
   .tab_worp .main_tab .tab_manu .main {
     border-bottom: 0; }
     .tab_worp .main_tab .tab_manu .main .tab_list {
-      padding: 20px 123px;
+      padding: 20px;
       border-left: 1px solid transparent;
       border-right: 1px solid transparent;
       border-bottom: 4px solid transparent;
       text-decoration: none;
-      color: #444444; }
+      color: #444444;
+      width: 33.33333334%;
+      text-align: center; }
       .tab_worp .main_tab .tab_manu .main .tab_list:hover, .tab_worp .main_tab .tab_manu .main .tab_list.active {
         background-color: #f7f7f7;
         border-left: 1px solid #ededed;
